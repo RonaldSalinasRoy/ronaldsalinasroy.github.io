@@ -1,1 +1,51 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Irkalla's Moving Square</title>
+    <style>
+      .buttons {
+        margin-left: 75px;
+      }
+      .up {
+        margin-left: 25px;
+      }
+      .down {
+        margin-left: 18px;
+      }
+      .directories {
+        position: absolute;
+        bottom: 0;
+        margin: 10px;
+      }
+      div {
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Moving Square</h1>
+    <canvas id="mainCanvas" width="250" height="250" style="border:5px solid #d3d3d3;"></canvas>
+    <p class="buttons">
+      <div class="buttons">
+        <input class="up" type="button" value="Up" onclick="moveUp()">
+        <br>
+        <input type="button" value="Left" onclick="moveLeft()">
+        <input type="button" value="Right" onclick="moveRight()">
+        <br>
+        <input class="down" type="button" value="Down" onclick="moveDown()">
+      </div>
+      <div>
+        Set speed (1-10):
+        <input type="number" id="speed" min=1 max=10>
+        <input type="button" value="Submit" onClick="setSpeed()">
+        <br>
+        Current Speed: <span id="currSpeed"></span>
+      </div>
+      <div class="directories">
+        <a href="../index.html">Home</a>
+        <a href="../projects.html">Projects</a>
+      </div>
+    </p>
+  </body>
+  <script src="moving-square.js"></script>
+</html>
