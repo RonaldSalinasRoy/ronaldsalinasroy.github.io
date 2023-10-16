@@ -1,3 +1,3 @@
-# Irkalla5363.github.io
+# ronaldsalinasroy.github.io
 A Github Pages website
-https://irkalla5363.github.io/
+https://ronaldsalinasroy.github.io/ 
