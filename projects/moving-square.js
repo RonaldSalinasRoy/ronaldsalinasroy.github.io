@@ -65,7 +65,7 @@ function moveUp(){
 // Moves the square right
 function moveRight(){
   let canvas = document.getElementById("mainCanvas");
-  if (square.X + square.width + square.speed <= canvas.width){
+  if (square.X + square.width + parseInt(square.speed) <= canvas.width){
     eraseSquare();
     square.X += square.speed;
     drawSquare();
@@ -92,7 +92,12 @@ function setSpeed(){
   else if (speed < 1){
     speed = 1
   }
-  square.speed = speed;
+  try {
+    square.speed = parseInt(speed)
+  }
+  catch(err){
+    square.speed = 1;
+  }
   displayCurrentSpeed();
 }
 
