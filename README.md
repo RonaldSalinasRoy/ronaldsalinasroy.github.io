@@ -11,6 +11,7 @@ Some resources that helped put this together:
 • https://nostalgic-css.github.io/NES.css/
 • https://pages.github.com/
 • https://stackoverflow.com/questions/11323813/how-to-outline-text-in-html-css
+• https://blog.hubspot.com/website/insert-image-in-html#:~:text=To%20ensure%20the%20background%20image,and%20set%20it%20to%20fixed.
 
 Image Sources: 
 • https://cutewallpaper.org/down.php?file=/21/pixel-wallpaper-gif/Animated-Wallpapers-Anime-Pixel-Background-Gif-Free-.gif
